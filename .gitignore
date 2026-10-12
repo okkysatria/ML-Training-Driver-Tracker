@@ -1,0 +1,29 @@
+# Python dan lingkungan lokal
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Data order dan backup lokal (berisi riwayat pengguna)
+orders_data*.json
+orders_data*.bak
+
+# Model hasil pelatihan dan riwayat training
+models/*.onnx
+models/*_metadata.json
+models/history.json
+
+# Log dan hasil build/export
+*.log
+error_log.txt
+build/
+dist/
+*.zip
+
+# File editor / sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
